@@ -1,4 +1,8 @@
 def circle_area(radius)
-  # TODO: Implement the `circle_area` method
-  Math::PI * radius**2
+  if radius.positive?
+    area = 3.14 * radius * radius
+    return area
+  else
+    return 0
+  end
 end
