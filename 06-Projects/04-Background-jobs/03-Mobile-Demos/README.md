@@ -11,7 +11,7 @@ brew install --cask ngrok
 Installation for Ubuntu/WSL:
 
 ```zsh
-sudo wget https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-linux-amd64.tgz -O - | sudo tar xz -C /usr/local/bin
+sudo wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz  -O - | sudo tar xz -C /usr/local/bin
 ```
 
 If you need to install it manually, you can download it [here](https://ngrok.com/download).
@@ -45,6 +45,7 @@ In your Rails project, you may need to add the following to your `config/environ
 ```rb
 # config/environments/development.rb
 config.hosts << /.*\.ngrok\.io$/
+config.hosts << /.*\.ngrok-free\.app$/
 ```
 
 (Please restart your `rails server` after adding.)
