@@ -1,1 +1,9 @@
-#  TODO: Define your Recipe class here
+# lib/recipe.rb
+class Recipe
+  attr_reader :name, :description
+
+  def initialize(name, description)
+    @name = name
+    @description = description
+  end
+end
