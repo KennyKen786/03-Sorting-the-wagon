@@ -1,1 +1,98 @@
 /* Your card CSS file */
+.card-category {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.card-category h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-category p {
+  font-size: 16px;
+  color: #555;
+}
+
+.card-product {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.card-product img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.card-product h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-product p {
+font-size:  18px;
+color: #27ae60;
+margin-bottom: 10px;
+}
+
+.card-product button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.card-product button:hover {
+  background-color: #2980b9;
+}
+
+.card-trip {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ecf0f1;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative; /* Parent relative for absolute positioning */
+  margin-bottom: 20px;
+}
+
+.card-trip h3 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.card-trip p {
+  font-size: 16px;
+  color: #555;
+}
+
+.avatar {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.avatar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
