@@ -12,46 +12,57 @@
   </head>
   <body class="text-center">
 
-    <h1>Smiley grid</h1>
+    <h1>Smiley Grid</h1>
 
     <!-- 1. Mobile full-screen, laptop half-half -->
     <div class="container">
       <h2>Mobile full-screen, laptop half-half</h2>
-
-      <div class="card bg-light">
-        😀
+      <div class="row">
+        <!-- Mobile full-screen (col-12), laptop half-half (col-lg-6) -->
+        <div class="col-12 col-lg-6">
+          <div class="card bg-light">
+            😀
+          </div>
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="card bg-light">
+            😀
+          </div>
+        </div>
       </div>
-
-      <div class="card bg-light">
-        😀
-      </div>
-
     </div>
 
     <!-- 2. Mobile full-screen, tablet half-half, laptop 2/3 & 1/3 -->
     <div class="container">
       <h2>Mobile full-screen, tablet half-half, laptop 2/3 & 1/3</h2>
-
-      <div class="card bg-light">
-        😀
+      <div class="row">
+        <!-- Mobile full-screen (col-12), tablet half-half (col-md-6), laptop 2/3 (col-lg-8) -->
+        <div class="col-12 col-md-6 col-lg-8">
+          <div class="card bg-light">
+            😀
+          </div>
+        </div>
+        <!-- Mobile full-screen (col-12), tablet half-half (col-md-6), laptop 1/3 (col-lg-4) -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="card bg-light">
+            😀
+          </div>
+        </div>
       </div>
-
-      <div class="card bg-light">
-        😀
-      </div>
-
     </div>
 
-    <!-- 3. centered div -->
+    <!-- 3. Centered div on large screens -->
     <div class="container">
       <h2>Mobile full-screen, laptop half centered</h2>
-
-      <div class="card bg-light">
-        😀
+      <div class="row justify-content-center">
+        <!-- Centered on laptop screens (col-lg-6), full-screen on mobile (col-12) -->
+        <div class="col-12 col-lg-6">
+          <div class="card bg-light">
+            😀
+          </div>
+        </div>
       </div>
-
     </div>
-
 
     <!--  Don't look at style below.
           It's just for visualizing the grid in this challenge -->
@@ -72,3 +83,4 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
+
