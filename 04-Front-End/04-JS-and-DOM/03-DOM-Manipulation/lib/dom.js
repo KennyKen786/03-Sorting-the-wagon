@@ -15,6 +15,7 @@ import runChallenges from "../spec/examiner.js";
 //       Make the function getEmail() return it
 const getEmail = () => {
   // TODO: return the email
+  return document.querySelector('input[type="email"]').value;
 };
 
 // /!\ DO NOT CHANGE THIS LINE - TEST PURPOSES
